@@ -41,34 +41,34 @@ security-groups = {
 private_subnets = {
   app = {
     name              = "APP",
-    cidr_block        = "10.0.1.0/24"
+    cidr_block        = "172.16.1.0/24"
     availability_zone = "us-east-1a"
   },
   dev = {
     name              = "DEV",
-    cidr_block        = "10.0.2.0/24"
+    cidr_block        = "172.16.2.0/24"
     availability_zone = "us-east-1b"
   },
   web = {
     name              = "WEB",
-    cidr_block        = "10.0.3.0/24"
+    cidr_block        = "172.16.3.0/24"
     availability_zone = "us-east-1c"
   }
 }
 public_subnets = {
   app = {
     name              = "APP",
-    cidr_block        = "10.0.4.0/24"
+    cidr_block        = "172.16.4.0/24"
     availability_zone = "us-east-1a"
   },
   dev = {
     name              = "DEV",
-    cidr_block        = "10.0.5.0/24"
+    cidr_block        = "172.16.5.0/24"
     availability_zone = "us-east-1b"
   },
   web = {
     name              = "WEB",
-    cidr_block        = "10.0.6.0/24"
+    cidr_block        = "172.16.6.0/24"
     availability_zone = "us-east-1c"
   }
 }
@@ -88,5 +88,4 @@ ec2 = {
     subnet_id   = ""
 
   }
-
 }
